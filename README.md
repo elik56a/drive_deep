@@ -1,4 +1,4 @@
-# cars_app
+# deep_drive
 
 ## Project setup
 ```

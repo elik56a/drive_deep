@@ -1,0 +1,90 @@
+export default {
+    'login': 'Login',
+    'logout': 'Logout',
+    'proceed': 'Proceed',
+    'set': 'Set',
+
+    'message': 'Message',
+    'messageLower': 'messages',
+    'messages': 'Messages',
+    'inbox':'Inbox',
+    'sent': 'Sent',
+    'newMessages': 'Unread',
+    'new' : 'New',
+    'recycleBin': 'Recycle Bin',
+    'sendFrom': 'Send From',
+    'postpone': 'Postpone',
+    'meeting': 'Meeting',
+    'noConsultations':'No Consultations on ',
+    'subject': 'Subject',
+    'allThe': 'All ',
+    'hello': 'Hello',
+    'online': 'Online',
+    'offline': 'Offline',
+    'chats': 'Chats',
+    'calls': 'Calls',
+    'favorites': 'Favorites',
+    'dashboard': 'Dashboard',
+    'myAccount': 'My Account',
+    'myProfile': 'My Profile',
+    'thisMonth': 'This Month',
+    'sessions': 'Sessions',
+    'manage': 'Manage',
+    'doctors': 'Doctors',
+    'clients': 'Clients',
+    'myBalance': 'My Balance',
+    'date': 'Date',
+    'actionType': 'Action Type',
+    'minutesCharged': 'Min. Charged',
+    'minuteRate': 'Min. Rate',
+    'commission': 'Commission',
+    'vat': 'Vat.',
+    'total': 'Total',
+    'search': 'Search',
+
+
+    'back': 'Back',
+    'next': 'Next',
+    'save': 'Save',
+    'done': 'Done',
+    'from': 'From',
+    'until': 'Until',
+    'agree': 'Agree',
+    'disagree':'Disagree',
+
+    'createMessage': 'Create Message',
+    'readMore': 'Read More',
+    'readLess':'Read Less',
+    'newMessage': 'New Message',
+    'sendTo': 'Send To',
+    'send': 'Send',
+
+
+    'age': 'Age',
+    'healthcare' :'Healthcare ',
+    'attachedDocs': 'Attached Docs From Me',
+    'attachedDocsFromPatient': 'Attached Docs From Patient',
+    'noAttachedDocs': 'No Documents Attached',
+    'deleteDocument':'Delete Document',
+    'viewDocument':'View Document',
+    'downloadDocument':'Download Document',
+
+    'topic' : 'Topic',
+    'areYouSure': 'Are You Sure ?',
+    'confirmCancelSession': ' Confirm cancelling the session, an automated message will be sent to the patient.',
+
+
+
+    'dataIterator': {
+        rowsPerPageText: 'Items per page:',
+        rowsPerPageAll: 'All',
+        pageText: '{0}-{1} of {2}',
+        noResultsText: 'No matching records found',
+        nextPage: 'Next page',
+        prevPage: 'Previous page'
+    },
+    'dataTable': {
+        rowsPerPageText: 'Rows per page:'
+    },
+    'noDataText': 'No data available'
+};
