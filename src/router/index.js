@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../components/Home';
-import About from '../components/About';
-import SettingsPage from '../pages/settingsPage';
+import Home from '../pages/HomePage';
+import MyFiles from '../pages/MyFilesPage';
+import MyAccount from '../pages/MyAccountPage';
+import SettingsPage from '../pages/SettingsPage';
 Vue.use(VueRouter);
 
 const routes = [
@@ -17,9 +18,14 @@ const routes = [
     component: SettingsPage
   },
   {
-    path: '/about',
-    name: 'about',
-    component: About
+    path: '/MyFiles',
+    name: 'MyFiles',
+    component: MyFiles
+  },
+  {
+    path: '/MyAccount',
+    name: 'MyAccount',
+    component: MyAccount
   }
 ]
 

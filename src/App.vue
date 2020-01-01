@@ -136,9 +136,8 @@ export default {
       drawerRight: false,
       drawerItems: [
           { icon: 'dashboard', title: 'Home', link: '/' },
-          { icon: 'chat', title: 'Chats', link: '/about' },
-          { icon: 'attachment', title: 'My Files', link: '/reports' },
-          { icon: 'email', title: 'Messages', link: '/messages' },
+          { icon: 'attachment', title: 'My Files', link: '/MyFiles' },
+          { icon: 'account_circle', title: 'My Account', link: '/MyAccount' },
           { icon: 'settings', title: 'Settings', link: '/settings' },
       ]
 
