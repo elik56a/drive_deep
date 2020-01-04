@@ -4,6 +4,8 @@ import Home from '../pages/HomePage';
 import MyFiles from '../pages/MyFilesPage';
 import MyAccount from '../pages/MyAccountPage';
 import SettingsPage from '../pages/SettingsPage';
+import SpecificFilePage from '../pages/SpecificFilePage';
+import RecentFilesPage from '../pages/RecentFilesPage';
 Vue.use(VueRouter);
 
 const routes = [
@@ -26,7 +28,22 @@ const routes = [
     path: '/MyAccount',
     name: 'MyAccount',
     component: MyAccount
-  }
+  },
+  {
+    path: '/recent',
+    name: 'RecentFiles',
+    component: RecentFilesPage
+  },
+  {
+    path: '/MyFiles/:fileId',
+    name: 'SpecificFile',
+    component: SpecificFilePage,
+    props: (route) => {
+        return ({
+          fileId: route.params.fileId,
+        });
+    }
+},
 ]
 
 const router = new VueRouter({

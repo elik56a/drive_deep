@@ -1,12 +1,11 @@
 <template>
-    <v-container  >
-        <v-layout justify-center>
-                <v-flex lg7 >
+    <div  >
+    
+                
                     <home-card
                     ></home-card>
-                </v-flex>
-        </v-layout>
-    </v-container>
+  
+    </div>
 </template>
 
 <script>

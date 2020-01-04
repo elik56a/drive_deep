@@ -136,7 +136,9 @@ export default {
       drawerRight: false,
       drawerItems: [
           { icon: 'dashboard', title: 'Home', link: '/' },
-          { icon: 'attachment', title: 'My Files', link: '/MyFiles' },
+          { icon: 'mdi-folder', title: 'My Files', link: '/MyFiles' },
+          { icon: 'mdi-history',  title: 'Recent',  link:'/recent' },
+          { icon: 'mdi-upload', title: 'Uploads', link:'/#' },
           { icon: 'account_circle', title: 'My Account', link: '/MyAccount' },
           { icon: 'settings', title: 'Settings', link: '/settings' },
       ]
